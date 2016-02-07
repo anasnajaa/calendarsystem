@@ -1,0 +1,37 @@
+{
+  "name": "anasnajaa/paaet-calendar",
+  "description": "PAAET full view calendar.",
+  "keywords": ["PAAET", "calendar"],
+  "homepage": "http://anas.najaa.io",
+  "authors": [
+    {
+      "name": "aNAS nAJAA",
+      "email": "SPIDERNET12@Gmail.com",
+      "role": "Developer"
+    }
+  ],
+  "support": {
+    "issues": ""
+  },
+  "license": "BSD",
+  "require": {
+    "components/jquery": "~1",
+    "components/underscore": "~1",
+    "twbs/bootstrap": ">2.0.0",
+    "moment/moment": "~2"
+  },
+  "extra" : {
+    "component" : {
+      "scripts" : [
+        "js/calendar.min.js"
+      ],
+      "styles" : [
+        "css/calendar.min.css"
+      ],
+      "files" : [
+        "js/language/*.js",
+        "tmpls/*.*"
+      ]
+    }
+  }
+}

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>نظام تعاميم كلية التربية الأساسية</title>
+
+	<meta name="description" content="PAAET calendar system with public announcements.">
+	<meta name="keywords" content="PAAET, College, Basic, Education">
+	<meta name="author" content="Anas Najaa">
+	<meta charset="UTF-8">
+
+	<link rel="stylesheet" href="components/bootstrap3/css/bootstrap.min.css">
+	<link rel="stylesheet" href="components/bootstrap3/css/bootstrap-rtl.min.css">
+	<link rel="stylesheet" href="components/bootstrap3/css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/calendar.css">
+
+</head>
+<body>
+<div class="container">
+	<div class="jumbotron">
+		<div class="row">
+			<div class="col-md-2"><img src="img/logo.png" alt="..."  class="img-rounded"></div>
+			<div class="col-md-8">
+				<h1>تعاميم كلية التربية الأساسية</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="page-header">
+			<h3></h3>
+	</div>
+
+	<div class="row">
+		<div class="col-md-3">
+			<div class="btn-group">
+				<button class="btn btn-primary" data-calendar-nav="prev"><< السابق</button>
+				<button class="btn btn-default" data-calendar-nav="today">اليوم</button>
+				<button class="btn btn-primary" data-calendar-nav="next">التالي >></button>
+			</div>
+			<br><br>
+			<h4>قائمة آخر التعاميم</h4>
+			<ul id="eventlist" class="nav nav-list"></ul>
+		</div>
+		<div class="col-md-9">
+			<div id="calendar"></div>
+		</div>
+
+	</div>
+	<div class="clearfix"></div>
+	<br><br>
+	<div class="row">
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-3">
+		</div>
+		<div class="col-md-6">
+			<div class="pull-right form-inline">
+				<div class="btn-group">
+					<button class="btn btn-warning" data-calendar-view="year">السنة</button>
+					<button class="btn btn-warning active" data-calendar-view="month">الشهر</button>
+					<button class="btn btn-warning" data-calendar-view="week">الأسبوع</button>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="clearfix"></div>
+	<br><br>
+
+
+	<script type="text/javascript" src="components/jquery/jquery.min.js"></script>
+	<script type="text/javascript" src="components/underscore/underscore-min.js"></script>
+	<script type="text/javascript" src="components/bootstrap3/js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="components/jstimezonedetect/jstz.min.js"></script>
+	<script type="text/javascript" src="js/calendar.js"></script>
+	<script type="text/javascript" src="js/app.js"></script>
+
+</div>
+</body>
+</html>
